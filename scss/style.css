@@ -1,0 +1,50 @@
+footer {
+  padding-top: 30px;
+  padding-inline-start: 30px;
+  background-image: linear-gradient(to right, gray, black);
+}
+footer p {
+  color: black;
+}
+footer a {
+  color: #fff9e1;
+  text-decoration: none;
+  justify-content: center;
+  transition: 1s;
+}
+footer a:hover {
+  color: #907761;
+  font-size: 30px;
+}
+
+body div h1 {
+  background: rgb(84, 88, 47);
+  background: linear-gradient(90deg, rgb(84, 88, 47) 0%, rgb(111, 111, 111) 50%, rgb(84, 88, 47) 100%);
+  text-align: center;
+  color: white;
+}
+
+main {
+  background-color: #c7b69f;
+}
+main section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section .img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+main div img {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  background: rgb(84, 88, 47);
+  background: linear-gradient(90deg, rgb(84, 88, 47) 0%, rgb(111, 111, 111) 50%, rgb(84, 88, 47) 100%);
+  text-align: center;
+  color: white;
+}

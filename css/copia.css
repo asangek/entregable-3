@@ -1,0 +1,68 @@
+
+
+
+
+/*le puse color violeta al h1*/
+
+
+
+
+
+
+
+
+
+/*aqui puse que el color de los link puera rosa*/
+
+
+
+
+
+section .grid-iteam {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin: 20px;
+    background-color:burlywood;
+    border: 5px solid black;   
+}
+
+
+
+
+
+.index{
+    justify-content: center;
+    background-color: #e7dbcb
+    
+    
+}
+
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns:repeat(7,1fr) ;
+}
+
+
+    .primer-dia{
+    grid-column-start: 4;
+                   }
+
+
+ .nombre-dia{
+    background: #eee;
+    font-weight: bold;
+
+    
+}
+
+
+ .lista-del-calendario{
+    text-align: center;
+  }
+
+.veinticuatro{
+    background-color: red;
+}
+

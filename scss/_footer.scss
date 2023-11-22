@@ -1,0 +1,21 @@
+footer {
+
+  p{
+    color: black;
+  }
+    padding-top: 30px;
+    padding-inline-start: 30px;
+    background-image: linear-gradient(to right, gray, black );
+     
+    a{
+        color: #fff9e1;
+        text-decoration: none;
+        justify-content: center; 
+        transition: 1s;
+        &:hover{
+          color: #907761;
+          font-size: 30px;
+
+        }
+    }
+}
