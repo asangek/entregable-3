@@ -1,7 +1,16 @@
 footer {
 
+  img{
+     margin-inline: 25px;
+
+  }
+
+
   p{
     color: black;
+    margin-top: 15px;
+    
+    
   }
     padding-top: 30px;
     padding-inline-start: 30px;
@@ -14,7 +23,7 @@ footer {
         transition: 1s;
         &:hover{
           color: #907761;
-          font-size: 30px;
+          font-size: 25px;
 
         }
     }
