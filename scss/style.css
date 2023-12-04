@@ -5,9 +5,11 @@ footer {
 }
 footer img {
   margin-inline: 25px;
+  margin-bottom: 25px;
+  width: 50px;
 }
 footer p {
-  color: black;
+  color: whitesmoke;
   margin-top: 15px;
 }
 footer a {
@@ -43,19 +45,46 @@ main div p {
   font-size: 1.1rem;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-main section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-main section .img-responsive {
-  max-width: 100%;
-  height: auto;
-}
-main div img {
+
+div img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+section {
+  text-align: center;
+}
+section iframe {
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+}
+
+img {
+  margin-inline-start: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5);
+}
+
+video {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5);
 }
 
 header h1 {
